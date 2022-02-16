@@ -1,5 +1,7 @@
 package com.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.List;
 
 public class Lion {
@@ -16,8 +18,6 @@ public class Lion {
             throw new Exception("Используйте допустимые значения пола животного - самец или самка");
         }
     }
-
-
 
     public int getKittens() {
         return feline.getKittens();
