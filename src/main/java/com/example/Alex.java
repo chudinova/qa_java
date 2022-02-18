@@ -11,10 +11,6 @@ public class Alex extends Lion{
         super(sex, feline);
     }
 
-    public boolean doesHaveMane() {
-        return hasMane;
-    }
-
     public List<String> getFriends() {
         return List.of("Зебра Марти", "Бегемотиха Глория", "Жираф Мелман");
     }

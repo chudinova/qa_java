@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="Jacoco files update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
+    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="Alex complete">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.com.example in untitled">
-    <configuration name="FelineGetKittensTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -79,13 +79,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineGetKittensTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FelineGetKittensTest.getKittensTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlexTest.doesHaveMane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +94,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineGetKittensTest" />
-      <option name="METHOD_NAME" value="getKittensTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
+      <option name="METHOD_NAME" value="doesHaveMane" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlexTest.getFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
+      <option name="METHOD_NAME" value="getFriends" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,21 +127,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,10 +149,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.example in untitled" />
+        <item itemvalue="JUnit.AlexTest" />
+        <item itemvalue="JUnit.AlexTest.getFriends" />
+        <item itemvalue="JUnit.AlexTest.doesHaveMane" />
         <item itemvalue="JUnit.FelineTest" />
-        <item itemvalue="JUnit.FelineGetKittensTest" />
-        <item itemvalue="JUnit.FelineGetKittensTest.getKittensTest" />
-        <item itemvalue="JUnit.LionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645181189258</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Alex complete">
+      <created>1645183284638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1645183284639</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +315,8 @@
     <MESSAGE value="Jacoco index.html add" />
     <MESSAGE value="FelineGetKittensTest complite" />
     <MESSAGE value="Jacoco files update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jacoco files update" />
+    <MESSAGE value="Alex complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alex complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
