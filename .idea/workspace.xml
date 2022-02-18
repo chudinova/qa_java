@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="Alex complete">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" afterDir="false" />
+    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="AlexTest complete">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AnimalGetFoodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,6 +53,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -117,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FelineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnimalGetFoodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +129,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AnimalGetFoodTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.com.example in untitled" />
+        <item itemvalue="JUnit.AnimalGetFoodTest" />
         <item itemvalue="JUnit.AlexTest" />
         <item itemvalue="JUnit.AlexTest.getFriends" />
         <item itemvalue="JUnit.AlexTest.doesHaveMane" />
-        <item itemvalue="JUnit.FelineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645183284639</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AlexTest complete">
+      <created>1645184027154</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1645184027154</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,7 +326,8 @@
     <MESSAGE value="FelineGetKittensTest complite" />
     <MESSAGE value="Jacoco files update" />
     <MESSAGE value="Alex complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alex complete" />
+    <MESSAGE value="AlexTest complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlexTest complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
