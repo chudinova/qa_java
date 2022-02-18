@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="LionTest complite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" afterDir="false" />
+    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="FelineGetKittensTest complite">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineGetKittensTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Feline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Feline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Predator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +73,38 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FelineTest">
+  <component name="RunManager" selected="JUnit.com.example in untitled">
+    <configuration name="FelineGetKittensTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineGetKittensTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FelineGetKittensTest.getKittensTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.FelineGetKittensTest" />
+      <option name="METHOD_NAME" value="getKittensTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FelineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -81,54 +116,6 @@
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FelineTest.eatMeatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
-      <option name="METHOD_NAME" value="eatMeatTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FelineTest.getFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
-      <option name="METHOD_NAME" value="getFamily" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FelineTest.getKittens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.FelineTest" />
-      <option name="METHOD_NAME" value="getKittens" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,13 +135,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.example in untitled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.example in untitled" />
         <item itemvalue="JUnit.FelineTest" />
-        <item itemvalue="JUnit.FelineTest.getKittens" />
-        <item itemvalue="JUnit.FelineTest.eatMeatTest" />
+        <item itemvalue="JUnit.FelineGetKittensTest" />
+        <item itemvalue="JUnit.FelineGetKittensTest.getKittensTest" />
         <item itemvalue="JUnit.LionTest" />
-        <item itemvalue="JUnit.FelineTest.getFamily" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645000576760</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FelineTest complite">
+      <created>1645114048492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1645114048492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="CatTest complite">
+      <created>1645177095464</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1645177095464</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Jacoco index.html add">
+      <created>1645180386207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645180386208</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +292,22 @@
     <MESSAGE value="Files add" />
     <MESSAGE value="Jacoco, Mockito, JUnit 4 add to pom" />
     <MESSAGE value="LionTest complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="LionTest complite" />
+    <MESSAGE value="FelineTest complite" />
+    <MESSAGE value="CatTest complite" />
+    <MESSAGE value="Jacoco index.html add" />
+    <MESSAGE value="FelineGetKittensTest complite" />
+    <option name="LAST_COMMIT_MESSAGE" value="FelineGetKittensTest complite" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/FelineGetKittensTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="../../../../qa_java/target/jacoco.exec" NAME="jacoco.exec" MODIFIED="1644662272757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

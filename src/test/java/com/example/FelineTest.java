@@ -2,6 +2,7 @@ package com.example;
 
 import org.junit.Before;
 import org.junit.Test;
+
 import java.util.List;
 import static org.junit.Assert.*;
 
@@ -28,17 +29,4 @@ public class FelineTest {
         assertEquals(expected, actual);
     }
 
-    @Test
-    public void getKittensWithNoParameterTest() {
-        int actual = feline.getKittens();
-        int expected = 1;
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    public void getKittensWithParameter() {
-        int actual = feline.getKittens(5);
-        int expected = 5;
-        assertEquals(expected, actual);
-    }
 }
