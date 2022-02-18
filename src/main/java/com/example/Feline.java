@@ -1,8 +1,12 @@
 package com.example;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.List;
 
 public class Feline extends Animal implements Predator {
+
+    private Feline feline;
 
     @Override
     public List<String> eatMeat() throws Exception {
