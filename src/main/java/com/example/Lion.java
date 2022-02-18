@@ -5,7 +5,7 @@ import org.w3c.dom.ls.LSOutput;
 import java.util.List;
 
 public class Lion {
-    private Feline feline;
+    public Feline feline;
     boolean hasMane;
 
     public Lion(String sex, Feline feline) throws Exception {

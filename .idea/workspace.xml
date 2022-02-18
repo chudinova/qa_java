@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="FelineGetKittensTest complite">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineGetKittensTest.java" afterDir="false" />
+    <list default="true" id="27f733df-00dd-4c5a-a3d9-ad1d07215599" name="Changes" comment="Jacoco files update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Predator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Lion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645180386208</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="FelineGetKittensTest complite">
+      <created>1645181092326</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645181092327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Jacoco files update">
+      <created>1645181189258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1645181189258</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +306,8 @@
     <MESSAGE value="CatTest complite" />
     <MESSAGE value="Jacoco index.html add" />
     <MESSAGE value="FelineGetKittensTest complite" />
-    <option name="LAST_COMMIT_MESSAGE" value="FelineGetKittensTest complite" />
+    <MESSAGE value="Jacoco files update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jacoco files update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
